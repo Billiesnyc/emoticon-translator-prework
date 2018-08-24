@@ -11,9 +11,8 @@ def load_library(file_path)
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-  return = load_library(file_path)
-  if load_library(file_path)[get_emoticon][emoticon]
-    load_library(file_path)[get_emoticon][emoticon]
+  if load_library(file_path)["get_emoticon"][emoticon]
+    
   else 
   "Sorry, please enter a known emoticon"
 end
